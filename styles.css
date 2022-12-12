@@ -1,0 +1,730 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "BinancePlex", Arial, Sans-serif;
+}
+header {
+  justify-content: space-between;
+  display: flex;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 200;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707a8a;
+  font-size: 12px;
+  height: 64px;
+  position: sticky;
+}
+.binancelogo {
+  margin: 5px;
+  margin-left: 2%;
+}
+.homeiconimage {
+  width: 25px;
+  height: 25px;
+  margin-right: 1em;
+}
+.strongbinance {
+  color: #f4be2b;
+  font-size: large;
+  letter-spacing: 1.2px;
+}
+.nftspan {
+  font-size: large;
+}
+
+.searchimagecontainerimage {
+  display: flex;
+  margin-top: 2px;
+}
+
+.barbtn {
+  margin-left: 1em;
+  height: 23px;
+  width: 22px;
+}
+.gamingimg {
+  height: 23px;
+  width: 23px;
+}
+
+.barbtnimagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.closemenubutton {
+  margin-top: 10px;
+  border: none;
+  display: block;
+  clear: both;
+  cursor: pointer;
+  justify-content: right;
+  background-color: #fff;
+}
+.closemenuspan:hover {
+  color: #fcd535;
+}
+.closemenuspan {
+  color: #7a7a7a;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: right;
+  margin-left: 285px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.homeiconcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+}
+.firstnavigationbar {
+  position: relative;
+  justify-content: right;
+  background-color: #fff;
+}
+.firstunorderedlist {
+  top: 0;
+  right: 0;
+  position: absolute;
+  /* margin-top: -40px; */
+  display: none;
+  color: #1e2329;
+  list-style: none;
+  line-height: 3.5;
+  background-color: #fff;
+  width: 320px;
+  /* overflow: hidden; */
+}
+.firstunorderedlist:hover {
+  overflow-y: auto;
+}
+.barsbutton {
+  cursor: pointer;
+  display: block;
+  border: none;
+  background-color: #fff;
+}
+
+.barbtnimagecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.loginbutton {
+  color: #1e2329;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #fff;
+  padding: 0.8em;
+  display: block;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 20px;
+}
+.registerbutton {
+  color: #1e2329;
+  border: none;
+  background-color: #fcd535;
+  padding: 1em;
+  display: block;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 20px;
+}
+.loginbuttonlink {
+  text-decoration: none;
+}
+.listdiv {
+  margin-left: 20px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  vertical-align: baseline;
+}
+.gamingimage {
+  display: inline-block;
+  display: flex;
+}
+
+.gaminglink {
+  display: flex;
+  text-decoration: none;
+  color: #1e2329;
+  align-items: center;
+}
+.gamingdiv {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.nftheaderimagecontainer {
+  position: relative;
+}
+.nftheaderimage {
+  height: 154px;
+}
+.cr7inlineimage {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  left: 30px;
+  top: 3;
+  z-index: 2;
+  position: absolute;
+  border-radius: 20px;
+  margin-top: 128px;
+}
+.cr7nfttitle {
+  display: inline-flex;
+  width: 200px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+.cr7yellowtick {
+  height: 19px;
+  width: 20px;
+}
+.cr7yellowtickdiv {
+  display: inline-block;
+}
+.bnlmbcbenam {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.main {
+  height: 500px;
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 0.8em 0;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button .accordion-title {
+  color: #1e2329;
+  font-size: 16px;
+  padding: 1em 1.5em 1em 0;
+  margin-left: 15px;
+}
+.accordion button .icon {
+  color: #474d57;
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: none;
+  margin-right: 10px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded="true"] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 200ms linear, max-height 200ms linear;
+}
+.footerunorderedlist a {
+  text-decoration: none;
+
+  margin-left: 15px;
+  list-style-type: none;
+  color: #707a8a;
+  line-height: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.communityimages {
+  display: flex;
+  gap: 2em;
+  margin-left: 15px;
+  padding-top: 25px;
+}
+.thandle {
+  width: 30px;
+  height: 25px;
+}
+.commdiv {
+  display: flex;
+  margin-left: 14px;
+  padding-top: 25px;
+  color: #1e2329;
+  font-size: 16px;
+}
+.plscontactus {
+  color: #707a8a;
+  font-size: 14px;
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 300px;
+  /* height: 250px; */
+}
+.emailimage {
+  margin-right: 5px;
+  display: inline-flex;
+  width: 20px;
+  height: 19px;
+}
+.nftlink {
+  text-decoration: underline;
+  vertical-align: baseline;
+  font-size: 14px;
+  color: #707a8a;
+}
+.nftlinkdiv {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+.believeimage {
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+}
+.nftimagecontainer {
+  /* width: fit-content; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nftname {
+  font-weight: 500;
+  color: #1e2329;
+  font-size: 14px;
+  display: flex;
+}
+.nftcrypto {
+  font-size: 12px;
+  color: #474d57;
+  display: inline;
+}
+.nftprice {
+  font-size: 12px;
+  color: #707a8a;
+  display: block;
+}
+.nftamount {
+  color: #000000;
+  font-size: 14px;
+}
+.nftinfogrid {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* margin-left: 25px; */
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.ethsvg {
+  width: 16px;
+  height: 14px;
+  display: inline-block;
+}
+.openseaimage {
+  right: 10px;
+  top: 8px;
+  position: absolute;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+
+.nftcard {
+  min-width: 0;
+  /* width: 100%; */
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 620px) {
+  .nftcard {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nftcard {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nftcard {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1123px) {
+  .nftcard {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nftcard {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.nftinfocontainer {
+  width: 250px;
+  margin-left: 5px;
+}
+.buynowdiv {
+  text-align: center;
+  display: none;
+  width: 250px;
+  justify-content: center;
+  background-color: #fcd535;
+  padding: 0.7em;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.nftinfocontainer:hover .buynowdiv {
+  display: block;
+}
+.buynowdiv a {
+  text-decoration: none;
+  color: #1e2329;
+}
+.anniversarydiv {
+  color: #474d57;
+  margin-top: 20px;
+  font-size: 14px;
+  margin-left: 20px;
+  width: 157px;
+  display: inline-block;
+}
+.yellowticker {
+  float: right;
+  width: 18px;
+  height: 18px;
+  margin-top: -8px;
+  margin-right: -15px;
+}
+
+.hearticon {
+  width: 22px;
+  height: 23px;
+}
+.shareicon {
+  margin-top: 5px;
+  width: 18px;
+  height: 17px;
+}
+.quotationicon {
+  margin-top: 3px;
+  width: 22.5px;
+  height: 19px;
+}
+.heartdiv {
+  display: flex;
+  float: right;
+  gap: 1em;
+  margin-right: 35px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.srdiv {
+  width: 28px;
+  height: 22px;
+  margin-left: 18px;
+}
+.nftbelievetitle {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.believenftimage {
+  width: 286px;
+  height: 300px;
+}
+.believeimagecontainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* =======================COUNTDOWN===================== */
+.containerS {
+  white-space: nowrap;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#line {
+  border: none;
+  border-bottom: 1px solid white;
+  width: 20%;
+  margin: auto;
+}
+#timer {
+  display: flex;
+  justify-content: center;
+}
+h6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.textbtc {
+  justify-content: center;
+  display: inline-block;
+  padding: 8px;
+  width: 250px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+.fa-clone {
+  display: block;
+  padding: 9px;
+  border-right: none;
+  background: #ffcb3e;
+  color: white;
+}
+.buynowwrap {
+  justify-content: center;
+  width: 320px;
+}
+.bwaitn-dep {
+  display: flex;
+  justify-content: center;
+}
+.fa-spinner {
+  display: flex;
+  margin-left: 43%;
+  color: #f4be2b;
+  font-size: 5rem;
+}
+.bhtu-dep {
+  font-size: 14px;
+  display: inline-block;
+  width: 280px;
+  margin-left: 20px;
+}
+.ethbarcode {
+  width: 270px;
+  height: 240px;
+  border: 1px solid #fcd535;
+}
+.ethbarcodecontainer {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.panel-title a:before {
+  color: #707a8a;
+  font-family: Fontawesome;
+  content: "\f077";
+  float: right;
+  font-size: 10px;
+  font-weight: 300;
+}
+.panel-title a.collapsed:before {
+  font-family: Fontawesome;
+  content: "\f078";
+}
+.screenshot {
+  width: 30px;
+  height: 30px;
+}
+.panel.panel-default {
+  border: none;
+  background-color: #fff;
+}
+#headingOne.panel-heading,
+#headingTwo.panel-heading,
+#headingThree.panel-heading,
+#headingFour.panel-heading {
+  background-color: #fff;
+  border-top: none;
+  border-bottom: none;
+  margin-right: -20px;
+}
+#collapseOne {
+  border-top: none;
+  border-bottom: none;
+}
+.panel-title {
+  border-top: none;
+  border-bottom: none;
+}
+.panel-body {
+  border-top: none;
+  border-bottom: none;
+}
+.panel-heading {
+  border-top: none;
+  border-bottom: none;
+}
+.detailsimage {
+  display: flex;
+  width: 22px;
+  height: 25px;
+}
+.detailsimagediv {
+  align-items: center;
+  display: flex;
+  /* justify-content: center; */
+  margin-left: -20px;
+  gap: 0.8em;
+  margin-right: 30px;
+}
+.detailslink {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 12px;
+}
+.detailslink:hover {
+  text-decoration: none;
+}
+.detailsdiv {
+  display: flex;
+  margin-left: 50px;
+  margin-left: 20px;
+}
+.detailslist {
+  height: 236px;
+  line-height: 45px;
+  list-style: none;
+  margin-left: 20px;
+}
+.creatorimage {
+  width: 23px;
+  height: 25px;
+}
+.ownerimage {
+  width: 23px;
+  height: 22px;
+}
+.creatorcont,
+.networkcont {
+  display: flex;
+  justify-content: space-between;
+}
+.binancenftd {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+  display: inline-block;
+}
+.binanceimagenftdiv {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.creatordiv,
+.networkdiv {
+  color: #707a8a;
+  font-size: 12px;
+}
+.ethd {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+}
+.col-md-4 {
+  display: block;
+  /* height: 100px; */
+  width: 100%;
+}
+.panel-body1 {
+  color: #474d57;
+  width: 288px;
+  margin-left: 15px;
+}
+.offersimage {
+  width: 48px;
+  height: 48px;
+}
+.panel-body2 {
+  /* display: flex; */
+  margin: 50px;
+  margin-left: 100px;
+}
+.nodatadiv {
+  color: #707a8a;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.cautionimage {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.cautiondiv {
+  display: flex;
+  width: 280px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}

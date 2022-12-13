@@ -27,6 +27,8 @@ footer {
 .binancelogo {
   margin: 5px;
   margin-left: 2%;
+  height: 30px;
+  width: 28px
 }
 .homeiconimage {
   width: 25px;
@@ -45,6 +47,8 @@ footer {
 .searchimagecontainerimage {
   display: flex;
   margin-top: 2px;
+  height: 23px;
+  width: 24px
 }
 
 .barbtn {
